@@ -1,6 +1,7 @@
 # Opti::OAuth2 for Ruby
 
-Opti::OAuth2 is a modern, simple and flexible [OAuth2](https://oauth.net/2/) client implementation for Ruby. It's in a very early stage, but it aims to cover the entire [RFC 6749 spec](https://tools.ietf.org/html/rfc6749) with all the main flows implemented.
+Opti::OAuth2 is a modern, simple and flexible [OAuth2](https://oauth.net/2/) client implementation for Ruby.  
+It's in a very early stage, but it aims to cover the entire [RFC 6749 spec](https://tools.ietf.org/html/rfc6749) with all the main flows implemented. See [DESIGN.md](DESIGN.md) for more information. 
 
 ## Installation
 
