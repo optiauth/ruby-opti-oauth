@@ -3,12 +3,14 @@
 require 'uri'
 
 RSpec.describe Opti::OAuth2::Client do
+  let(:http) { double Opti::OAuth2::Http }
   let(:authorization_endpoint) { 'https://example.com/auth' }
   let(:client_id) { 'opti' }
   subject do
     described_class.new(
       authorization_endpoint: authorization_endpoint,
-        client_id: client_id
+        client_id: client_id,
+        http_client: http
     )
   end
 
